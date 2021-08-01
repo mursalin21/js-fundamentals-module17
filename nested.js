@@ -5,18 +5,18 @@ var myBudget = 100;
 var packedWell = false;
 
 //Using else if
-// if (danishPrice < myBudget) {
-//     console.log('Danish kheye danish jabo!');
-// }
-// else if (butterBreadPrice < myBudget) {
-//     console.log('Butter bon diye cha khamu');
-// }
-// else if (toastPrice < myBudget) {
-//     console.log('Toast biscuit khamu');
-// }
-// else {
-//     console.log('Batasha diye cha khamu');
-// }
+if (danishPrice < myBudget) {
+    console.log('Danish kheye danish jabo!');
+}
+else if (butterBreadPrice < myBudget) {
+    console.log('Butter bon diye cha khamu');
+}
+else if (toastPrice < myBudget) {
+    console.log('Toast biscuit khamu');
+}
+else {
+    console.log('Batasha diye cha khamu');
+}
 
 //Using Nested Conditions
 if (danishPrice < myBudget) {
